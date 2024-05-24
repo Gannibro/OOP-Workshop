@@ -62,6 +62,6 @@ public:
     ~ProteinDatabase() = default;
 };
 
-} // namespace seneca
+} 
 
-#endif // SENECA_PROTEINDATABASE_H
+#endif 
