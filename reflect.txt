@@ -1,0 +1,11 @@
+In completing this workshop, I learned about the importance and efficiency of move semantics compared to copy operations. The significant time difference between copy and move operations arises from the underlying mechanism of how these operations work.
+
+When an object is copied, a new copy of the data is created, which involves allocating memory and copying each element. This process can be time-consuming, especially for large data structures.
+
+In contrast, move operations transfer ownership of the data from one object to another by simply updating pointers. This is much faster because it avoids unnecessary duplication of data. Additionally, move operations are often noexcept, meaning they are guaranteed not to throw exceptions, further improving performance.
+
+To ensure that move operations are utilized effectively, it's essential to implement move constructors and move assignment operators in classes that manage dynamically allocated resources.
+
+During the implementation, I encountered some difficulties in understanding the intricacies of move semantics, especially regarding when and how to use std::move. However, through careful reading of course notes and experimenting with examples, I was able to overcome these challenges and successfully implement move semantics in the ProteinDatabase class.
+
+Overall, this workshop deepened my understanding of resource management in C++ and the benefits of utilizing move semantics for improved performance.
