@@ -1,6 +1,7 @@
 # Workshop 2: Move and Copy Semantics
 In this workshop, you work with a large dynamically allocated array of C++ Standard Library strings and compare the performance of copy and move operations on that collection.
 
+
 # Learning Outcomes:
 * retrieve records from a text file using an input file stream object
 * count the number of records in a text file
